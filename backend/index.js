@@ -49,10 +49,11 @@ mongoose
   .connect(mongoDBURL)
   .then(() => {
     console.log('Pinged Suuccessfully. Mongodb is activated');
-    app.listen(PORT, () => {
-      console.log(`listening to port: ${PORT}`);
-    });
   })
   .catch((error) => {
     console.log(error);
+  });
+
+  app.listen(PORT, () => {
+    console.log(`listening to port: ${PORT}`);
   });
