@@ -31,13 +31,13 @@ const BookSingleCard = ({ book }) => {
           className='text-3xl text-blue-800 hover:text-black cursor-pointer'
           onClick={() => setShowModal(true)}
         />
-        <Link to={`/books/details/${book._id}`}>
+        <Link to={`${config.VITE_APP_URL}/books/details/${book._id}`}>
           <BsInfoCircle className='text-2xl text-green-800 hover:text-black' />
         </Link>
-        <Link to={`/books/edit/${book._id}`}>
+        <Link to={`${config.VITE_APP_URL}/books/edit/${book._id}`}>
           <AiOutlineEdit className='text-2xl text-yellow-600 hover:text-black' />
         </Link>
-        <Link to={`/books/delete/${book._id}`}>
+        <Link to={`${config.VITE_APP_URL}/books/delete/${book._id}`}>
           <MdOutlineDelete className='text-2xl text-red-600 hover:text-black' />
         </Link>
       </div>
