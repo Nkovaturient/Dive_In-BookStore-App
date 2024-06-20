@@ -3,11 +3,12 @@ import express from 'express';
 import mongoose from 'mongoose';
 import booksRoute from './routes/booksRoute.js';
 import cors from 'cors';
-import { PORT, mongoDBURL} from './config.js';
+import {  mongoDBURL} from './config.js';
 import { Book } from './models/bookModel.js';
+import env from 'dotenv';
 
 const app = express();
-
+const PORT=process.env.PORT || 5500;
 // Middleware for parsing request body
 app.use(express.json());
 

@@ -5,6 +5,7 @@ import CreateBook from './pages/CreateBooks';
 import ShowBook from './pages/ShowBook';
 import EditBook from './pages/EditBook';
 import DeleteBook from './pages/DeleteBook';
+import { config } from './config/config';
 
 const App = () => {
   return (
