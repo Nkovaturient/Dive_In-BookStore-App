@@ -13,7 +13,7 @@
 - TailwindCSS: Crafting sleek and responsive UI components. 🌙
 - JavaScript: Driving interactivity and functionality. 🏄
 - NotiStack Enhancing flash messages for better user communication. 📥
-- Axios- Fetching and Handling data 🔖
+- Axios- Fetching and Handling HTTP requests from server. 🔖
 
 # updating soon! 🆕
 - To add a feature of  'accessing Links🔗 of respective books' for users to Read online or purchase it! (if any)
