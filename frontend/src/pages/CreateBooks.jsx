@@ -21,8 +21,7 @@ const CreateBooks = () => {
       publishYear,
     };
     setLoading(true);
-    axios
-      .post(`${config.VITE_APP_URL}/books`, data)
+    axios.post(`${config.VITE_APP_URL}/books`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Book Created successfully', { variant: 'success' });
